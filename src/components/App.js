@@ -15,13 +15,13 @@ export default function App() {
       <nav className="navbar navbar-light">
         <ul className="nav navbar-nav">
           <li>
-            {/* Home*/}
+           <Link to="/">{Home}</Link>
           </li>
           <li>
-            {/* Shapes*/}
+           <Link to="/">{Shapes}</Link>
           </li>
           <li>
-           {/* Image*/}
+           <Link to="/">{Image}</Link>
           </li>
         </ul>
       </nav>
