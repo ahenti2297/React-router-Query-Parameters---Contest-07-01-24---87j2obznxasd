@@ -22,9 +22,18 @@ export default function App() {
           </li>
           <li>
            <Link to="/">{Image}</Link>
-          </li>
+          </li> 
         </ul>
       </nav>
+     <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home/>}>
+    <Route path="/Shapes" element={<Shapes/>}/>
+    <Route path="/Image" element={<Image/>}/>
+  </Route>
+    </Routes>
+    </BrowserRouter>
+   </div>
       
       
           
